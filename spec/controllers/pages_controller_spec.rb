@@ -42,4 +42,15 @@ describe PagesController do
     end
   end
   
+  describe "Get 'help'" do
+    it "should be successful" do
+      get 'home'
+      response.should be_sucess
+    end
+    
+    it "should have the right title" do
+      
+    end
+  end
+  
 end
